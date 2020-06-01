@@ -1,18 +1,15 @@
 @import '~@angular/material/theming';
 
 
+
 .mat-card {
-    position: absolute;
-    top: 15px;
-    left: 15px;
-    right: 15px;
-    bottom: 15px;
+    position: relative;
+    margin: 15px;
     display: flex;
-    justify-content: center;
     align-items: center;
     flex-direction: column;
-
-    color: mat-color($mat-indigo, 400);
+    padding: 40px 20px;
+    box-sizing: border-box;
   
   @include mat-elevation-transition;
   @include mat-elevation(2);
@@ -21,7 +18,8 @@
     @include mat-elevation(5);
   }
 
-  span {
+  .title {
     font-size: 2em;
+    color: mat-color($mat-indigo, 400);
   }
 }
