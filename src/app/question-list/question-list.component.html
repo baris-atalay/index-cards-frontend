@@ -1,0 +1,11 @@
+<div class="container">
+  <mat-grid-list [cols]="breakpoint" rowHeight="1:1" (window:resize)="onResize($event)">
+    <mat-grid-tile *ngFor="let question of questions">
+      <a routerLink={{question.url}}>
+        <mat-card>
+          <span>{{question.title}}</span>
+        </mat-card>
+      </a>
+    </mat-grid-tile>
+  </mat-grid-list>
+</div>

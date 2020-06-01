@@ -1,0 +1,28 @@
+@import '~@angular/material/theming';
+
+
+.mat-card {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    right: 15px;
+    bottom: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: mat-color($mat-indigo, 400);
+    color: white;
+  
+  @include mat-elevation-transition;
+  @include mat-elevation(2);
+
+  &:hover {
+    @include mat-elevation(5);
+    background-color: mat-color($mat-indigo, 600);
+  }
+
+  span {
+    font-size: 2em;
+  }
+}

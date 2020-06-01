@@ -1,0 +1,12 @@
+<div class="container">
+  <mat-grid-list [cols]="breakpoint" rowHeight="1:1">
+    <mat-grid-tile>
+        <mat-card *ngIf="question">
+          <div>
+            <span>{{question.title}}</span>
+          </div>
+          <markdown data={{question.description}}></markdown>
+        </mat-card>
+    </mat-grid-tile>
+  </mat-grid-list>
+</div>
