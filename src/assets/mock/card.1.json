@@ -1,0 +1,7 @@
+{
+  "id": 1,
+  "type": "simple",
+  "title":  "Phasennamen",
+  "description": "- [ ] Mercury\r\n- [x] Venus\r\n- [x] Earth (Orbit\/Moon)\r\n- [x] Mars\r\n- [ ] Jupiter\r\n- [ ] Saturn\r\n- [ ] Uranus\r\n- [ ] Neptune\r\n- [ ] Comet Haley",
+  "answer": "- [ ] Mercury" 
+}

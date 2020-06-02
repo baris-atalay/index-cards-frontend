@@ -1,0 +1,16 @@
+<div class="container"  @flyInOut>
+  <mat-card @toggleSolution *ngIf="question && !show">
+    <div>
+      <span class="title">{{question.title}}</span>
+    </div>
+    <markdown data={{question.description}}></markdown>
+    <button mat-raised-button color="primary" (click)="showSolution(true)"> zur Lösung</button>
+  </mat-card>
+  <mat-card @toggleSolution *ngIf="question && show">
+    <div>
+      <span class="title">{{question.title}}</span>
+    </div>
+    <markdown data={{question.answer}}></markdown>
+    <button mat-raised-button color="primary" (click)="showSolution(false)"> zur Frage zurück</button>
+  </mat-card>
+</div>

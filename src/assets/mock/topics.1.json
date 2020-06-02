@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "title": "Topic 1",
+    "isLeaf": true
+  },
+  {
+    "id": 2,
+    "title": "Topic 2",
+    "isLeaf": true
+  },
+  {
+    "id": 3,
+    "title": "Topic 3",
+    "isLeaf": true
+  },
+  {
+    "id": 4,
+    "title": "Topic 4",
+    "isLeaf": true
+  },
+  {
+    "id": 5,
+    "title": "Topic 5",
+    "isLeaf": true
+  },
+  {
+    "id": 6,
+    "title": "Topic 6",
+    "isLeaf": true
+  }
+]

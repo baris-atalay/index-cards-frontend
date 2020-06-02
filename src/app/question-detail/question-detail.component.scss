@@ -1,0 +1,25 @@
+@import '~@angular/material/theming';
+
+
+
+.mat-card {
+    position: relative;
+    margin: 15px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px 20px;
+    box-sizing: border-box;
+  
+  @include mat-elevation-transition;
+  @include mat-elevation(2);
+
+  &:hover {
+    @include mat-elevation(5);
+  }
+
+  .title {
+    font-size: 2em;
+    color: mat-color($mat-indigo, 400);
+  }
+}

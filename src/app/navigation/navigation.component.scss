@@ -1,0 +1,11 @@
+.toolbar-row {
+  display:flex;
+  justify-content: space-between;
+  max-width: 1024px;
+  width: 90%;
+  margin: auto;
+
+  button {
+    margin: 0 5px;
+  }
+}
